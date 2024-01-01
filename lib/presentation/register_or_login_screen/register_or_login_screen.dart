@@ -6,8 +6,8 @@ import 'provider/register_or_login_provider.dart';
 class RegisterOrLoginScreen extends StatefulWidget {
   const RegisterOrLoginScreen({Key? key})
       : super(
-          key: key,
-        );
+    key: key,
+  );
 
   @override
   RegisterOrLoginScreenState createState() => RegisterOrLoginScreenState();
@@ -36,6 +36,7 @@ class RegisterOrLoginScreenState extends State<RegisterOrLoginScreen> {
             height: 812.v,
             width: 375.h,
             alignment: Alignment.center,
+
           ),
         ),
       ),
